@@ -6,7 +6,12 @@ export default function Footer() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           <div>
-            <img src="/image.png" alt="AegisOne Solutions" className="h-12 mb-4 brightness-0 invert" />
+            <img 
+              src="/image.png" 
+              alt="AegisOne Solutions" 
+              className="h-12 mb-4"
+              style={{ filter: 'brightness(0) invert(1)' }}
+            />
             <p className="text-gray-300 text-sm">
               Empowering firms with Microsoft 365 solutions for secure, efficient, and collaborative workspaces.
             </p>
